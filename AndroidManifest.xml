@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.womensafetyapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WomenSafetyApp">
+        <activity
+            android:name=".fc4"
+            android:exported="false" />
+        <activity
+            android:name=".fc3"
+            android:exported="false" />
+        <activity
+            android:name=".fc2"
+            android:exported="false" />
+        <activity
+            android:name=".fc1"
+            android:exported="false" />
+        <activity
+            android:name=".fact6"
+            android:exported="false" />
+        <activity
+            android:name=".fact5"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".confirmationMessage"
+            android:exported="false" />
+        <activity
+            android:name=".policeStation"
+            android:exported="false" />
+        <activity
+            android:name=".fact4"
+            android:exported="false" />
+        <activity
+            android:name=".fact3"
+            android:exported="false" />
+        <activity
+            android:name=".fact2"
+            android:exported="false" />
+        <activity
+            android:name=".fact1"
+            android:exported="false" />
+        <activity
+            android:name=".quickFacts"
+            android:exported="false" />
+        <activity
+            android:name=".barangayHalls"
+            android:exported="false" />
+        <activity
+            android:name=".hospital"
+            android:exported="false" />
+        <activity
+            android:name=".helpCenters"
+            android:exported="false" />
+        <activity
+            android:name=".fakeCall"
+            android:exported="false" />
+        <activity
+            android:name=".addContact"
+            android:exported="false" />
+        <activity
+            android:name=".contactList"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".loginRegister"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".loadingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
