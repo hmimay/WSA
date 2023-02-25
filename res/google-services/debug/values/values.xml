@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">540669676712-9tqmjkgjin67sruhuogtvh17icufacvl.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">540669676712</string>
+    <string name="google_api_key" translatable="false">AIzaSyBNwE44ovQl0UVW2rEiLKVgYph_WN26QV0</string>
+    <string name="google_app_id" translatable="false">1:540669676712:android:2751c4eed763d93e37c69d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBNwE44ovQl0UVW2rEiLKVgYph_WN26QV0</string>
+    <string name="google_storage_bucket" translatable="false">women-safety-app-7f1a8.appspot.com</string>
+    <string name="project_id" translatable="false">women-safety-app-7f1a8</string>
+</resources>
