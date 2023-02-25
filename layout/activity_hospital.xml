@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="scroll"
+        tools:context=".hospital">
+
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="58dp"
+            android:text="Phone: (02) 8731 3001"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:text="Phone: (02) 8712 3640"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
+            android:text="Address: Prudencio corner, Maria Clara St, Sampaloc, Manila, 1015 Metro Manila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:text="Address: 6 Nicanor Ramirez, Sampaloc, Lungsod Quezon, 1008 Kalakhang Maynila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Phone: (02) 8731 3001"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="@+id/textView38"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView38"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="108dp"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="112dp"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="52dp"
+            android:text="Phone: (02) 8731 2772"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="174dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="20dp"
+            android:text="Address: 1556 Laong Laan Rd, Sampaloc, Manila, 1008 Metro Manila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="166dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="28dp"
+            android:text="Address: España Blvd, Sampaloc, Manila, 1015 Metro Manila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="57dp"
+            android:layout_height="51dp"
+            android:contentDescription="return"
+            android:onClick="openHelp_centers"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.957"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.009"
+            app:srcCompat="@drawable/backarrow" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="327dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="16dp"
+            android:text="Hospitals Within Your Area"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.062"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="184dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="16dp"
+            android:text="Ospital ng Sampaloc"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="16dp"
+            android:text="Mary Chiles General Hospital"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="173dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="24dp"
+            android:text="Perpetual Succor Hospital"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="155dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="40dp"
+            android:text="Hospital of the Infant Jesus"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="205dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="80dp"
+            android:text="Ma. Clara Lying-in-Clinic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="159dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="44dp"
+            android:text="United Doctors Medical Center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="173dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="20dp"
+            android:text="University of Santo Tomas Hospital"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:srcCompat="@drawable/hosp1" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="179dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="20dp"
+            android:text="Address: 677 Gen. Geronimo St, Sampaloc, Manila, 1008 Metro Manila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="177dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:text="Address: 667 Dalupan St, Sampaloc, Manila, 1008 Metro Manila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="176dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="20dp"
+            android:text="Address: 836 Cayco St, Sampaloc, Manila, 1008 Metro Manila"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#009688"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="104dp"
+            android:text="Open 24 hours"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="56dp"
+            android:text="Phone: (02) 8749 0224"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="52dp"
+            android:text="Phone: (02) 8735 5352"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: (02) 8731 1631"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:srcCompat="@drawable/hosp2" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:srcCompat="@drawable/hosp3" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26"
+            app:srcCompat="@drawable/hosp4" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView27"
+            app:srcCompat="@drawable/hosp5" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView28"
+            app:srcCompat="@drawable/hosp6" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="162dp"
+            android:layout_height="183dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView29"
+            app:srcCompat="@drawable/hosp7" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
